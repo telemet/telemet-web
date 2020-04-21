@@ -1,7 +1,6 @@
 <template lang="html">
-  <div
-    class="main min-h-screen flex flex-col md:flex-row justify-center items-center text-center mx-auto"
-  ></div>
+  <!-- min-h-screen flex flex-col md:flex-row justify-center items-center text-center mx-auto -->
+  <div class="container min-h-screen mx-auto border-l border-r"></div>
 </template>
 
 <script>
