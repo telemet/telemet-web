@@ -1,5 +1,5 @@
 <template>
-  <div :dir="$dir()" class="md:min-h-screen bg-brand-100 antialiased">
+  <div :dir="$dir()" class="md:min-h-screen bg-white antialiased">
     <!-- <t-navbar /> -->
     <nuxt />
   </div>

@@ -95,7 +95,7 @@ export default {
     ]
   ],
   tailwindcss: {
-    configPath: '~/config/tailwind.config.js',
+    configPath: '~/tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css'
     // purgeCSSInDev: true
   },

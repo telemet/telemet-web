@@ -1,6 +1,6 @@
 <template lang="html">
   <div
-    class="main bg-gray-100 min-h-screen flex flex-col md:flex-row justify-center items-center text-center mx-auto"
+    class="main min-h-screen flex flex-col md:flex-row justify-center items-center text-center mx-auto"
   ></div>
 </template>
 
