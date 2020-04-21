@@ -72,7 +72,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/i18n.js'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -102,7 +102,24 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', 'nuxt-i18n'],
+  i18n: {
+    locales: [
+      {
+        code: 'he',
+        name: 'עברית',
+        dir: 'rtl'
+      },
+      {
+        code: 'en',
+        name: 'English',
+        dir: 'ltr'
+      }
+    ],
+    vueI18nLoader: true,
+    defaultLocale: 'he',
+    vueI18n: {fallbackLocale: 'he'}
+  },
   /*
    ** Build configuration
    */
