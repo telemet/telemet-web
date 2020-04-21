@@ -1,0 +1,55 @@
+/* Base */
+
+/* Utilities */
+/* Hide input type number-control arrows */
+/* input[type='number'] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+} */
+
+/* Colors: Gradients */
+.gradient-white {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0.56) 100%
+  );
+}
+/* 
+.gradient-white:hover {
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.96) 100%
+  );
+} */
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.333s ease-in-out;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.333s ease-out;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-slower-enter-active,
+.fade-slower-leave-active {
+  transition: opacity 1.999s ease-out;
+}
+.fade-slower-enter,
+.fade-slower-leave-to {
+  opacity: 0.5;
+}
