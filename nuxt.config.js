@@ -106,19 +106,24 @@ export default {
   i18n: {
     locales: [
       {
-        code: 'he',
-        name: 'עברית',
-        dir: 'rtl'
-      },
-      {
         code: 'en',
         name: 'English',
         dir: 'ltr'
+      },
+      {
+        code: 'he',
+        name: 'עברית',
+        dir: 'rtl'
       }
     ],
     vueI18nLoader: true,
     defaultLocale: 'he',
-    vueI18n: {fallbackLocale: 'he'}
+    vueI18n: {fallbackLocale: 'he'},
+    vuex: {
+      moduleName: 'i18n',
+      syncLocale: true
+      // syncMessages: true
+    }
   },
   /*
    ** Build configuration

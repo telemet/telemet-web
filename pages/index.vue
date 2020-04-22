@@ -1,12 +1,13 @@
 <template lang="html">
   <!-- min-h-screen flex flex-col md:flex-row justify-center items-center text-center mx-auto -->
-  <div class="container min-h-screen mx-auto border-l border-r"></div>
+  <div class="min-h-screen mx-auto"></div>
 </template>
 
 <script>
 // import Icon from '~/components/icons/Icon'
 
 export default {
+  name: 'Home',
   components: {
     // Icon
   },
