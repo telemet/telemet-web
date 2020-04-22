@@ -2,7 +2,10 @@
   <nav
     class="py-01 w-full border-t border-b border-grey-100 flex justify-around"
   >
-    <ul class="pt-01 pb-1 w-full text-md list-none flex justify-evenly">
+    <icon class="mt-01">
+      <icon-logomark />
+    </icon>
+    <ul class="pt-01 pb-1 w-full text-md list-none flex justify-evenly mx-12">
       <li class="mav-item">{{ $t('natural-law') }}</li>
       <li class="mav-item">{{ $t('5g') }}</li>
       <li class="mav-item">{{ $t('video') }}</li>
@@ -39,11 +42,14 @@ he:
 
 <script>
 import AppLanguageSwitcher from '@/components/AppLanguageSwitcher'
-// import AppNavbar from '@/components/AppNavbar'
+import Icon from '~/components/icons/Icon'
+import IconLogomark from '~/components/icons/IconLogomark'
 
 export default {
   components: {
-    AppLanguageSwitcher
+    AppLanguageSwitcher,
+    Icon,
+    IconLogomark
     // AppNavbar
   }
 }
