@@ -1,18 +1,22 @@
 <template>
   <header
-    class="px-8 w-full flex flex-col items-center justify-center relative"
+    class="px-6 md:px-8 lg:px-10 w-full flex flex-col items-center justify-center relative"
   >
-    <app-logotype class="mt-10 mb-10" />
+    <div class="w-full block flex items-center h-10 ">
+      <icon
+        :width="16"
+        :height="16"
+        :icon-color="'transperant'"
+        class="logomark text-black fill-current cursor-pointer"
+        icon-name="Telemet"
+      >
+        <icon-menu />
+      </icon>
+    </div>
+    <nuxt-link :to="localePath('/')">
+      <app-logotype class="mt-0 mb-10" />
+    </nuxt-link>
     <app-navbar class="block mt-10" />
-    <icon
-      :width="16"
-      :height="16"
-      :icon-color="'transperant'"
-      class="logomark text-black fill-current absolute top-0 right-0 mt-2 ms-8"
-      icon-name="Telemet"
-    >
-      <icon-menu />
-    </icon>
   </header>
 </template>
 

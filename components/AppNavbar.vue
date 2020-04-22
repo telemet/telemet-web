@@ -1,6 +1,8 @@
 <template>
-  <nav class="w-full border-t border-b py-1">
-    <ul class="list-none flex justify-evenly items-center">
+  <nav class="py-01 w-full border-t border-grey-100">
+    <ul
+      class="pt-01 pb-1 text-md list-none flex justify-evenly items-center border-b border-black"
+    >
       <li class="mav-item">{{ $t('item') }}</li>
       <li class="mav-item">{{ $t('item') }}</li>
       <li class="mav-item">{{ $t('item') }}</li>
