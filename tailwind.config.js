@@ -294,14 +294,25 @@ module.exports = {
       default: '1'
     },
     fontFamily: {
+      // he: [
+      //   'Assistant',
+      //   '"Arial Hebrew"',
+      //   'Gisha',
+      //   '"Times New Roman"',
+      //   'Roboto',
+      //   'Noto',
+      //   '"Noto Sans Hebrew"',
+      //   'sans-serif'
+      // ],
       sans: [
-        'Roboto',
+        'Assistant',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
         '"Helvetica Neue"',
         'Arial',
+        'Roboto',
         '"Noto Sans"',
         'sans-serif',
         '"Apple Color Emoji"',

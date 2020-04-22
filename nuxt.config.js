@@ -102,7 +102,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', 'nuxt-i18n'],
+  modules: ['@nuxtjs/pwa', 'nuxt-i18n', 'nuxt-webfontloader'],
   i18n: {
     locales: [
       {
@@ -123,6 +123,11 @@ export default {
       moduleName: 'i18n',
       syncLocale: true
       // syncMessages: true
+    }
+  },
+  webfontloader: {
+    google: {
+      families: ['Assistant:400,700'] // Loads Lato font with weights 400 and 700
     }
   },
   /*

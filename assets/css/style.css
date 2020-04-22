@@ -1,4 +1,12 @@
 /* Base */
+/* html {
+  @apply font-sans;
+}
+
+html.he {
+  @apply font-he;
+} */
+
 
 /* Utilities */
 /* Hide input type number-control arrows */
