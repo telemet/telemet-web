@@ -1,5 +1,6 @@
 <template>
-  <div :dir="$dir()" class="min-h-screen bg-white antialiased">
+  <!-- :dir="$dir()" -->
+  <div class="min-h-screen bg-white">
     <app-header />
     <nuxt />
   </div>
@@ -9,6 +10,28 @@ import AppHeader from '@/components/AppHeader'
 export default {
   components: {
     AppHeader
+  },
+  // data() {
+  //   return {
+  //     lang: this.$store.state.i18n.locale
+  //   }
+  // },
+  computed: {
+    currentLanguage() {
+      return this.$store.state.i18n.locale
+    }
+  },
+  head() {
+    return {
+      // bodyAttrs: {
+      //   class: this.modalOpen ? 'm-open' : 'm-close'
+      // },
+      htmlAttrs: {
+        class: this.currentLanguage,
+        lang: this.currentLanguage,
+        dir: this.$dir()
+      }
+    }
   }
 }
 </script>
