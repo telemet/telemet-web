@@ -1,14 +1,14 @@
 <template>
   <div :dir="$dir()" class="min-h-screen bg-white antialiased">
-    <!-- <t-navbar /> -->
+    <app-header />
     <nuxt />
   </div>
 </template>
 <script>
-// import TNavbar from '@/components/TNavbar'
+import AppHeader from '@/components/AppHeader'
 export default {
   components: {
-    // TNavbar
+    AppHeader
   }
 }
 </script>

@@ -74,4 +74,19 @@ export default {
 }
 </script>
 
-<style lang="postcss"></style>
+<style lang="postcss">
+/* html {
+  font-size: 14px;
+}
+@screen md {
+  html {
+    font-size: 16px;
+  }
+}
+
+@screen lg {
+  html {
+    font-size: 18px;
+  }
+} */
+</style>
