@@ -8,6 +8,7 @@
       </icon>
     </nuxt-link>
     <ul class="w-full text-md list-none flex justify-evenly items-center mx-12">
+      <li class="mav-item">{{ $t('telemet') }}</li>
       <li class="mav-item">{{ $t('natural-law') }}</li>
       <li class="mav-item">{{ $t('5g') }}</li>
       <li class="mav-item">{{ $t('video') }}</li>
@@ -63,7 +64,7 @@ nav {
 }
 
 .mav-item {
-  @apply py-01 px-2 rounded-sm;
+  @apply py-01 px-2 rounded-sm transition-colors ease-in-out duration-200;
 }
 .mav-item:hover {
   @apply bg-gray-100 cursor-pointer;

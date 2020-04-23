@@ -2,7 +2,7 @@
   <nuxt-link
     v-if="$store.state.i18n.locale === 'he'"
     :to="switchLocalePath('en')"
-    class="py-1 px-2 text-xs font-bold hover:bg-gray-100 rounded-sm"
+    class="py-1 px-2 text-xs font-bold hover:bg-gray-100 rounded-sm transition-colors ease-in-out duration-100"
   >
     <span class="block pt-1">
       {{ $t('lang') }}
@@ -11,7 +11,7 @@
   <nuxt-link
     v-else
     :to="switchLocalePath('he')"
-    class="py-1 px-2 text-xs font-bold hover:bg-gray-100 rounded-sm"
+    class="py-1 px-2 text-xs font-bold hover:bg-gray-100 rounded-sm transition-colors ease-in-out duration-100"
   >
     <span class="block pt-1">
       {{ $t('lang') }}
