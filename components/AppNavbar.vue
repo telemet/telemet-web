@@ -9,7 +9,7 @@
     </nuxt-link>
     <ul class="w-full text-md list-none flex justify-evenly items-center mx-12">
       <li class="mav-item">{{ $t('telemet') }}</li>
-      <li class="mav-item">{{ $t('natural-law') }}</li>
+      <li class="mav-item">{{ $t('nlaw') }}</li>
       <li class="mav-item">{{ $t('5g') }}</li>
       <li class="mav-item">{{ $t('video') }}</li>
       <li class="mav-item">{{ $t('meme') }}</li>
@@ -21,27 +21,6 @@
     <app-lang-switcher class="pt-0" />
   </nav>
 </template>
-
-<i18n lang="yaml">
-en:
-  "5g": "5G"
-  natural-law: "Natural Law"
-  video: "Video"
-  news: "News"
-  meme: "Meme"
-  quotes: "Quotes"
-  archive: "Archive"
-  more: "More"
-he:
-  "5g": "דור-5"
-  natural-law: "יסודות האמת"
-  video: "וידאו"
-  news: "חדשות"
-  meme: "מיימז"
-  quotes: "ציטוטים"
-  archive: "ארכיון"
-  more: "עוד"
-</i18n>
 
 <script>
 import AppLangSwitcher from '@/components/AppLangSwitcher'

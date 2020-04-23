@@ -1,6 +1,28 @@
 <template lang="html">
-  <!-- min-h-screen flex flex-col md:flex-row justify-center items-center text-center mx-auto -->
-  <div class="min-h-screen mx-auto"></div>
+  <!-- Content -->
+  <div class="min-h-screen mx-auto">
+    <!-- Hero -->
+    <div class="mt-4 w-full h-72 bg-black flex justify-center items-center">
+      <div class="font-bold text-6xl text-white -mt-4">דגל שחור</div>
+    </div>
+    <!-- Grid 3/1 -->
+    <div class="px-2 mt-4">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-1/3 px-2 my-2">
+          <div class="bg-gray-100 h-48"></div>
+        </div>
+        <div class="w-1/3 px-2 my-2">
+          <div class="bg-gray-100 h-48"></div>
+        </div>
+        <div class="w-1/3 px-2 my-2">
+          <div class="bg-gray-100 h-48"></div>
+        </div>
+        <div class="w-1/3 px-2 my-2">
+          <div class="bg-gray-100 h-48"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -76,9 +98,14 @@ export default {
 </script>
 
 <style lang="postcss">
+.grid-item {
+  @apply bg-gray-400 h-12 px-2 w-1/3;
+  /* width: 33.333%; */
+}
 /* html {
   font-size: 14px;
 }
+
 @screen md {
   html {
     font-size: 16px;

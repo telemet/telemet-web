@@ -1,21 +1,21 @@
 <template>
   <!-- :dir="$dir()" -->
-  <div class="min-h-screen bg-white">
+  <div
+    class="max-w-screen-xl px-0 md:px-8 lg:px-10 mx-auto min-h-screen bg-white"
+  >
     <app-header />
-    <nuxt />
+    <section class="mx-auto">
+      <nuxt class="px-6 md:px-0" />
+    </section>
   </div>
 </template>
+
 <script>
 import AppHeader from '@/components/AppHeader'
 export default {
   components: {
     AppHeader
   },
-  // data() {
-  //   return {
-  //     lang: this.$store.state.i18n.locale
-  //   }
-  // },
   computed: {
     currentLanguage() {
       return this.$store.state.i18n.locale
@@ -23,9 +23,6 @@ export default {
   },
   head() {
     return {
-      // bodyAttrs: {
-      //   class: this.modalOpen ? 'm-open' : 'm-close'
-      // },
       htmlAttrs: {
         class: this.currentLanguage,
         lang: this.currentLanguage,
@@ -39,8 +36,5 @@ export default {
 /* body {
   font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1920 - 320)));
   @apply bg-brand-100 antialiased;
-} */
-/* .t-container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
 } */
 </style>

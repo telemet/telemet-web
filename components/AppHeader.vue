@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="px-0 md:px-8 lg:px-10 w-full flex flex-col items-center relative"
-  >
+  <header class="w-full flex flex-col items-center relative">
     <!-- Topbar -->
     <div
       class="w-full flex justify-between items-center md:items-start md:pt-2 h-16 border-b md:border-none "
