@@ -3,7 +3,13 @@ export default (context) => {
     resolve({
       telemet: 'טלאֱמֶת',
       '5g': 'דור-5',
-      natlaw: 'יסודות האמת'
+      nlaw: 'יסודות האמת',
+      video: 'וידאו',
+      news: 'חדשות',
+      meme: 'מיימז',
+      quotes: 'ציטוטים',
+      archive: 'ארכיון',
+      more: 'עוד'
     })
   })
 }
