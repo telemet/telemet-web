@@ -106,18 +106,24 @@ export default {
   i18n: {
     locales: [
       {
-        code: 'en',
         name: 'English',
+        code: 'en',
+        iso: 'en-US',
+        file: 'en-US.js',
         dir: 'ltr'
       },
       {
-        code: 'he',
         name: 'עברית',
+        code: 'he',
+        iso: 'he-IL',
+        file: 'he-IL.js',
         dir: 'rtl'
       }
     ],
-    vueI18nLoader: true,
+    langDir: 'lang/',
+    lazy: true,
     defaultLocale: 'he',
+    vueI18nLoader: true,
     vueI18n: {fallbackLocale: 'he'},
     vuex: {
       moduleName: 'i18n',
