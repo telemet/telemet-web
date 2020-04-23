@@ -61,4 +61,11 @@ export default {
 nav {
   border-bottom-color: black;
 }
+
+.mav-item {
+  @apply py-01 px-2 rounded-sm;
+}
+.mav-item:hover {
+  @apply bg-gray-100 cursor-pointer;
+}
 </style>
