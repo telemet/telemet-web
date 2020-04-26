@@ -9,14 +9,14 @@
     </nuxt-link>
     <ul class="w-full text-md list-none flex justify-evenly items-center mx-12">
       <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
-      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">דור-5</li>
+      <li class="mav-item">יסודות האמת</li>
+      <li class="mav-item">וידאו</li>
+      <li class="mav-item">חדשות</li>
+      <li class="mav-item">מיימז</li>
+      <li class="mav-item">ציטוטים</li>
+      <li class="mav-item">ארכיון</li>
+      <li class="mav-item">עוד</li>
     </ul>
     <!-- <app-lang-switcher class="pt-0" /> -->
   </nav>
