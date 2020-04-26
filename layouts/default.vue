@@ -16,18 +16,18 @@ export default {
   components: {
     AppHeader
   },
-  computed: {
-    currentLanguage() {
-      return this.$store.state.i18n.locale
-    }
-  },
+  // computed: {
+  //   currentLanguage() {
+  //     return this.$store.state.i18n.locale
+  //   }
+  // },
   head() {
     return {
-      htmlAttrs: {
-        class: this.currentLanguage,
-        lang: this.currentLanguage,
-        dir: this.$dir()
-      }
+      // htmlAttrs: {
+      //   class: this.currentLanguage,
+      //   lang: this.currentLanguage,
+      //   dir: this.$dir()
+      // }
     }
   }
 }

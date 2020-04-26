@@ -6,7 +6,7 @@
     >
       <!-- Topbar: Menu Icon -->
       <nuxt-link
-        :to="localePath('/')"
+        to="/"
         class="w-8 h-8 ms-4 md:ms-0 hover:bg-gray-100 flex justify-center items-center transition-colors ease-in-out duration-100"
       >
         <icon
@@ -19,13 +19,13 @@
       </nuxt-link>
 
       <!-- Topbar: Logotype -->
-      <nuxt-link :to="localePath('/')" class="leading-none">
+      <nuxt-link to="/" class="leading-none">
         <app-logotype class="md:mt-6 md:mb-10 w-32 h-8 md:w-40 md:h-10" />
       </nuxt-link>
 
       <!-- Topbar: Login -->
       <nuxt-link
-        :to="localePath('/')"
+        to="/"
         class="w-8 h-8 me-4 md:me-0 hover:bg-gray-100 flex justify-center items-center transition-colors ease-in-out duration-100"
       >
         <icon

@@ -6,6 +6,10 @@ export default {
   head: {
     titleTemplate: 'טלאֱמֶת | %s',
     title: 'טלאֱמֶת',
+    htmlAttrs: {
+      lang: 'he',
+      dir: 'rtl'
+    },
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -72,7 +76,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{src: '~plugins/i18n.js'}],
+  plugins: [],
   /*
    ** Nuxt.js dev-modules
    */
@@ -102,35 +106,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', 'nuxt-i18n', 'nuxt-webfontloader'],
-  i18n: {
-    locales: [
-      {
-        name: 'English',
-        code: 'en',
-        iso: 'en-US',
-        file: 'en-US.js',
-        dir: 'ltr'
-      },
-      {
-        name: 'עברית',
-        code: 'he',
-        iso: 'he-IL',
-        file: 'he-IL.js',
-        dir: 'rtl'
-      }
-    ],
-    langDir: 'lang/',
-    lazy: true,
-    defaultLocale: 'he',
-    vueI18nLoader: true,
-    vueI18n: {fallbackLocale: 'he'},
-    vuex: {
-      moduleName: 'i18n',
-      syncLocale: true
-      // syncMessages: true
-    }
-  },
+  modules: ['@nuxtjs/pwa', 'nuxt-webfontloader'],
   webfontloader: {
     google: {
       families: ['Assistant:400,700'] // Loads Lato font with weights 400 and 700

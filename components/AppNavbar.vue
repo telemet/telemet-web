@@ -2,34 +2,34 @@
   <nav
     class="h-10 w-full border-t border-b border-grey-100 hidden md:flex justify-around items-center"
   >
-    <nuxt-link :to="localePath('/')" class="w-5 h-5">
+    <nuxt-link to="/" class="w-5 h-5">
       <icon class=" w-5 h-5">
         <icon-logomark />
       </icon>
     </nuxt-link>
     <ul class="w-full text-md list-none flex justify-evenly items-center mx-12">
-      <li class="mav-item">{{ $t('telemet') }}</li>
-      <li class="mav-item">{{ $t('nlaw') }}</li>
-      <li class="mav-item">{{ $t('5g') }}</li>
-      <li class="mav-item">{{ $t('video') }}</li>
-      <li class="mav-item">{{ $t('meme') }}</li>
-      <li class="mav-item">{{ $t('news') }}</li>
-      <li class="mav-item">{{ $t('quotes') }}</li>
-      <li class="mav-item">{{ $t('archive') }}</li>
-      <li class="mav-item">{{ $t('more') }}</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
+      <li class="mav-item">טלאֱמֶת</li>
     </ul>
-    <app-lang-switcher class="pt-0" />
+    <!-- <app-lang-switcher class="pt-0" /> -->
   </nav>
 </template>
 
 <script>
-import AppLangSwitcher from '@/components/AppLangSwitcher'
+// import AppLangSwitcher from '@/components/AppLangSwitcher'
 import Icon from '~/components/icons/Icon'
 import IconLogomark from '~/components/icons/IconLogomark'
 
 export default {
   components: {
-    AppLangSwitcher,
+    // AppLangSwitcher,
     Icon,
     IconLogomark
     // AppNavbar
