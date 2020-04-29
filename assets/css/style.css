@@ -1,4 +1,13 @@
 /* Base */
+
+/* img {
+  filter: grayscale(0.5);
+}
+
+img:hover {
+  filter: grayscale(0);
+} */
+
 /* html {
   @apply font-sans;
 }
@@ -21,13 +30,13 @@ html.he {
 } */
 
 /* Colors: Gradients */
-.gradient-white {
+/*.gradient-white {
   background: linear-gradient(
     45deg,
     rgba(255, 255, 255, 0) 20%,
     rgba(255, 255, 255, 0.56) 100%
   );
-}
+}*/
 /* 
 .gradient-white:hover {
   background: linear-gradient(
